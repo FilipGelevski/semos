@@ -1,0 +1,28 @@
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.s-beginner {
+  background-color: black;
+}
+.s-beginner__inner {
+  padding: 50px 0;
+  background-color: red;
+}
+
+.c-headline {
+  text-align: center;
+}
+
+.c-cards {
+  background-color: black;
+}
+.c-cards__inner {
+  background-color: white;
+  height: 300px;
+}
+.c-cards__card {
+  color: black;
+}/*# sourceMappingURL=style.css.map */

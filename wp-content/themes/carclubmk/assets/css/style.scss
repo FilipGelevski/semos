@@ -1,0 +1,32 @@
+@import './globals';
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.s-beginner {
+    background-color: black;
+    &__inner{
+        padding: 50px 0;
+        background-color: red;
+    }
+}
+
+.c-headline {
+    text-align: center;
+}
+
+.c-cards {
+    background-color: black;
+
+    &__inner {
+        background-color: white;
+        height: 300px;
+    }
+
+    &__card {
+        color:black;
+    }
+}
