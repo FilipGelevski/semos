@@ -10,7 +10,7 @@
     background-color: black;
     &__inner{
         padding: 50px 0;
-        background-color: red;
+        background-color: blue;
     }
 }
 
@@ -29,4 +29,11 @@
     &__card {
         color:black;
     }
+}
+
+.c-cards__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:5%;
 }

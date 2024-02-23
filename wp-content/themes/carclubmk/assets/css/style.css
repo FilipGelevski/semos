@@ -9,7 +9,7 @@
 }
 .s-beginner__inner {
   padding: 50px 0;
-  background-color: red;
+  background-color: blue;
 }
 
 .c-headline {
@@ -25,4 +25,11 @@
 }
 .c-cards__card {
   color: black;
+}
+
+.c-cards__inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5%;
 }/*# sourceMappingURL=style.css.map */
