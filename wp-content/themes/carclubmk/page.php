@@ -9,7 +9,12 @@ if( have_posts() ):
             <main class="main">
                 <article id="<?php echo the_ID(); ?>">
                     <div class="container">
-                        <?php the_content();?>
+                        <div class="articel_title">
+                            <?php the_title(); ?>
+                        </div>
+                        <div class="articel_content">
+                            <?php the_content();?>
+                        </div>
                     </div>
                 </article>
             </main>
